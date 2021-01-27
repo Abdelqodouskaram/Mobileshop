@@ -1,0 +1,384 @@
+﻿
+/*Author Name : AbdElQodous Karam Ahmed*/
+
+body {
+    margin:0
+}
+*{
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+/*-----------------------------------------START NAVBAR ----------------------------------------------*/
+.navbar
+{
+     box-shadow:2px 0 1px 1px black;
+     background-color: white;
+     
+}
+.navbar img#A{
+    margin-left:60px;
+                  
+}
+.container{
+    max-width:1140px !important;                                   
+}
+#navbar li{
+    font-family: 'Poppins', sans-serif;                                  
+    margin-right:50px;
+    font-size:18px;
+    line-height:17px;
+    font-weight:600;
+    color:#c51a18 !important;
+    
+}
+
+.navbar-expand-lg .navbar-collapse{
+    margin-right:10%;
+}
+.navbar-light .navbar-nav .nav-link {
+
+    color:#ff0000 !important;
+}
+
+
+
+
+/*-------------------------------------------END NAVBAR---------------------------------------*/
+
+
+
+/*--------------------------------------START Carosuel ---------------------------------------*/
+
+#carouselExampleControls{
+    margin-top:64px;
+}
+carousel-caption h1{
+    margin-bottom:0px;
+}
+.carousel-control-next, .carousel-control-prev {
+    top:-450px;
+}
+.carousel-caption .col-lg-12:not(p)   {
+    width:47%    !important;
+    line-height: 0.6;
+
+
+}
+.carousel-caption .col-lg-12 {
+    width:47%    !important;
+    text-align:left;
+    
+
+}
+.carousel-caption a{
+    float:left;
+    text-decoration:none;
+    background-color:white;
+    padding:15px;
+    border-radius:70px 70px;
+    width:185px;
+    text-transform:uppercase;
+    margin-top:40px;
+    color:#ff0000;
+}
+.carousel-caption a:hover{
+    color:white;
+    background-color:#ff0000;
+    -webkit-transition:background-color 0.5s ease;
+    -moz-transition:background-color 0.5s ease;
+    -o-transition:background-color 0.5s ease;  
+    transition:background-color 0.5s ease;
+
+
+}
+.carousel-caption {
+    bottom:-4.7rem !important;
+}
+    
+/*--------------------------------------End Carosuel ---------------------------------------*/
+
+
+
+
+/*--------------------------------------START About ---------------------------------------*/
+
+.about{
+    background:url("../images/aboutbg.jpg");
+    min-height:650px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding-top:80px;
+    border-bottom:6px solid #ff0000;
+    
+}
+.about img{
+    width:420px;
+    max-height:500px;
+
+    
+}
+.abouttext{
+    max-height:400px;
+    width:100%;
+    padding-top:70px;
+    font-family: 'Poppins', sans-serif;                                  
+}
+
+
+
+/*--------------------------------------End About---------------------------------------*/
+
+
+
+/*--------------------------------------Start Products---------------------------------------*/
+
+.brand{
+    height:150px;
+    width:100%;   
+}
+.brand h1{
+    font-family: 'Poppins', sans-serif;
+    line-height:3.1;
+    font-weight:bolder; 
+    font-size:50px;
+}
+.productsplace{
+    background-color:#ebebeb;
+    width:100%;
+    min-height:1050px;
+    padding-top:40px;
+}
+.products>img{
+    height:200px;
+    width:auto;
+}
+.products{
+    min-height:420px;
+    background-color:white;
+    width:auto;
+    margin-bottom:35px;
+    padding-top:80px;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.products:hover{
+                box-shadow:0px 0px 19px 8px #b7b7b7;
+
+}
+.products:hover section{
+               -webkit-transform:rotateY(360deg);
+
+}
+.products span{
+    font-size:27px;
+    font-weight:600;
+    color:black;
+    
+}
+.products section{
+       font-size:27px;
+    font-weight:600;
+    color:#ff0000;       
+    padding-top:10px;
+}
+ .products h5{
+     margin-bottom:0px;
+ }
+ .btnpro{
+     margin-top:20px;
+ }
+ .btnpro a{
+     
+    text-decoration:none;
+    background-color:white;
+    padding:20px 50px 20px 50px;
+    border-radius:70px 70px;
+    text-transform:uppercase;
+    color:#ff0000;
+
+ }
+ .btnpro a:hover{
+     color:white;
+     background-color:#ff0000;
+     -webkit-transition:background-color 0.5s ease;
+     -moz-transition:background-color 0.5s ease;
+     -o-transition:background-color 0.5s ease;  
+     transition:background-color 0.5s ease;
+ }
+
+
+  
+
+
+
+
+/*--------------------------------------End Products---------------------------------------*/
+
+
+
+
+/*--------------------------------------Start AboutUs---------------------------------------*/
+
+.aboutuscontent{
+    min-height:500px;
+    width:100%;
+    background-color:#ff0000;
+    margin-top:80px;
+    padding-top:1px;
+}
+.aboutus h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top:20px;
+}
+.acontent{
+    width:73%;
+    min-height:300px;     
+    margin:auto;
+    background-color:white;
+    margin-top:30px;
+ -webkit-transform:skew(-25deg)
+}
+
+.A{
+ position:static !important;
+ -webkit-transform:skew(25deg)
+}
+.acontent .active{
+    background-color:white !important;
+}
+.acontent li{
+    background-color:#000 !important;
+}
+.acontent .carousel-caption{
+    max-height: 245px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 724px;
+    margin: auto;
+}
+.contactus{
+    padding:90px 0px;
+}
+
+
+
+/*--------------------------------------End Products---------------------------------------*/
+
+
+
+/*--------------------------------------Start Contact Us---------------------------------------*/
+
+
+
+.contactus input.form-control{
+     font-family: 'Poppins', sans-serif;
+     border:2px solid #ff0000;
+     padding-top:13px;
+     padding-bottom:13px;
+     border-radius:0px;
+     
+ }
+ input.form-control:focus{
+
+     box-shadow:none !important;
+     border:2px solid #ff0000;
+
+     
+ }
+textarea.form-control{
+
+     font-family: 'Poppins', sans-serif;
+     border:2px solid #ff0000;
+     border-radius:0px;
+     
+ }
+ textarea.form-control:focus{
+
+     box-shadow:none !important;
+     border:2px solid #ff0000;
+
+ }
+ #cbtn{
+     min-width:200px;
+     padding-top:14px;
+     padding-bottom:14px;
+     border-radius:0px;
+ }
+ #cbtn:hover{
+     background-color:#ff0000;
+     -webkit-transition:background-color 0.5s ease;
+     -o-transition:background-color 0.5s ease;
+     -moz-transition:background-color 0.5s ease;
+     transition:background-color 0.5s ease;
+
+ }
+ .contactholder{
+                box-shadow:#ddd 0px 0px 20px 1px;
+                padding:40px;
+ }
+#footerback{
+     background-color:black;
+     height:420px;
+ }
+#footerbox{
+     padding-top:60px;
+     font-family: 'Poppins', sans-serif;
+
+ }
+#footerbox h3{ 
+     font-size:38px;
+     border-bottom:1px solid white;
+     padding-bottom:10px;
+     color:white;
+
+ }
+#footerbox{
+    color:#fff;
+}
+.fa-circle{
+    color:white !important;
+}
+.icons a{
+    margin-left:15px;
+    text-decoration:none;
+    color:white;
+}
+.icons a:hover{
+    color:#ff0000;
+}
+#footerback ul {
+  list-style-type: none;
+  margin: 0;
+  padding:10px 0;
+  overflow: hidden;
+
+}
+
+#footerback li {
+  float: left;
+  text-align:center;
+}
+
+#footerback li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#footerback li a:hover{
+    color:#ff0000;
+}
+
+ /*--------------------------------------End Contact Us---------------------------------------*/
+
+.footer{
+     font-family: 'Poppins', sans-serif;
+     color:#ff0000
+}

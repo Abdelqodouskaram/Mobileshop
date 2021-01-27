@@ -1,0 +1,34 @@
+﻿@media (max-width:767px)
+{
+    #carouselExampleControls {
+        display: none;
+    }
+    .abouttext{
+        text-align:center;
+        padding-top:0px;
+
+    }
+    figure{
+        margin:revert;
+    }
+    .brand h1{
+        text-align:center
+    }
+    .aboutus h1{
+        text-align:center;
+    }
+    .acontent{
+        -webkit-transform:none;
+        width:100%
+    }
+    .A{
+         -webkit-transform:none;
+
+    }
+    .acontent p{
+        font-size:14px;
+    }
+    #N{
+        margin-right:0px !important;
+    }
+}
